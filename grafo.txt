@@ -1,0 +1,13 @@
+6
+UEFS
+Shopping
+Hiper G Barbosa
+Quatro Estações
+Rodoviária
+Empório da Cerveja
+5
+UEFS,Shopping,4
+UEFS,Hiper G Barbosa,7
+Quatro Estações,UEFS,0.6
+Rodoviária,Empório da Cerveja,4
+Empório da Cerveja,Shopping,4
