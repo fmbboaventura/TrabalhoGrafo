@@ -17,4 +17,14 @@ public class Vertice {
     public void criarAresta(Vertice destino, float peso) {
         arestas.add(new Aresta(this, destino, peso));
     }
+    
+    public float pesoAte(Vertice v1){
+        float peso = 0;
+        for (Aresta aux: arestas){
+            if (aux.getDestino().equals(v1)){
+                peso = aux.getPeso();
+            }            
+        }
+        return peso;
+    }
 }
