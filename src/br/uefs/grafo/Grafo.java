@@ -1,6 +1,8 @@
 package br.uefs.grafo;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.LinkedList;
 
 /**
  * Created by Filipe Boaventura on 13/04/2016.
@@ -52,5 +54,9 @@ public class Grafo {
      */
     public void criarAresta(String origem, String destino, float peso){
         this.criarAresta(origem, destino, peso, false);
+    }
+
+    public LinkedList<Vertice> getVertices() {
+        return new LinkedList<>(listaDeAdjacencia.values());
     }
 }
